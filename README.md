@@ -16,3 +16,7 @@ Once the extension is installed and activated, it will automatically detect and 
 ### 1.0.0
 
 Initial release
+
+## 1.0.1
+
+Fix keyword matching issue
