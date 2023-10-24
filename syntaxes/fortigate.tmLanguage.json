@@ -47,7 +47,7 @@
 			"patterns": [
 				{
 					"name": "constant.numeric.fortigate",
-					"match": "(?<!-)(?<!\\w)[0-9a-f:]*/?\\d+([\\.-]\\d+)*\\b(?!-)"
+					"match": "(?<![^\\s:]|set )[0-9a-f:]*/?[0-9a-f:]+([\\.-]\\d+)*\\b(?!-)"
 				}
 			]
 		}
