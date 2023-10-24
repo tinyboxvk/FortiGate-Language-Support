@@ -1,0 +1,54 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "FortiGate",
+	"patterns": [
+		{
+            "include": "#comments"
+        },
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+            "include": "#numbers"
+        }
+	],
+	"repository": {
+		"comments": {
+            "patterns":[
+                {
+                    "name": "comment.line.number-sign.fortigate",
+                    "match": "#.*$"
+                }
+            ]
+        },
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.fortigate",
+				"match": "(?<![-\\S]\\s)(config [a-zA-Z0-9 -]+|end|edit|next|set|unset)\\b(?!-)"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.fortigate",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.fortigate",
+					"match": "\\\\."
+				}
+			]
+		},
+		"numbers": {
+            "patterns": [
+                {
+                    "name": "constant.numeric.fortigate",
+                    "match": "(?<!-)(?<!\\w)[0-9a-f:]*/?\\d+([\\.-]\\d+)*\\b(?!-)"
+                }
+            ]
+        }
+	},
+	"scopeName": "source.fortigate"
+}

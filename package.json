@@ -1,0 +1,33 @@
+{
+  "name": "fortigate-language-support",
+  "displayName": "FortiGate Language Support",
+  "description": "Syntax highlighting for FortiGate configuration",
+  "version": "1.0.0",
+  "publisher": "tinyboxvk",
+  "license": "MIT",
+  "homepage": "https://github.com/tinyboxvk/FortiGate-Language-Support",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/tinyboxvk/FortiGate-Language-Support"
+  },
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "fortigate",
+      "aliases": ["FortiGate", "fortigate", "fortios"],
+      "extensions": [".conf", ".fgt"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "fortigate",
+      "scopeName": "source.fortigate",
+      "path": "./syntaxes/fortigate.tmLanguage.json"
+    }]
+  }
+}
