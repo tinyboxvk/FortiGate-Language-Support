@@ -28,7 +28,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.fortigate",
-					"match": "(?<![^\\s])(config [a-zA-Z0-9 -]+|end|edit|next|set|unset)\\b(?!-)"
+					"match": "^\\s*(config [a-zA-Z0-9 -]+|end|edit|next|set|unset)\\b(?!-)"
 				}
 			]
 		},

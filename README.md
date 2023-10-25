@@ -10,17 +10,3 @@ This Visual Studio Code extension provides syntax highlighting support for Forti
 ## Usage
 
 Once the extension is installed and activated, it will automatically detect and apply syntax highlighting to any FortiGate configuration file (.conf or .fgt) that you open in Visual Studio Code.
-
-## Release Notes
-
-### 1.0.0
-
-Initial release
-
-### 1.0.1
-
-Fix keyword matching issue
-
-### 1.0.2
-
-Improve numeric matching

@@ -11,3 +11,7 @@
 ## [1.0.2]
 
 - Improve numeric matching
+
+## [1.0.3]
+
+- Improve keyword matching
