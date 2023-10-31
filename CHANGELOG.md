@@ -15,3 +15,7 @@
 ## [1.0.3]
 
 - Improve keyword matching
+
+## [1.1.0]
+
+- Add enable/disable matching

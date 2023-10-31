@@ -13,6 +13,12 @@
 		},
 		{
 			"include": "#numbers"
+		},
+		{
+			"include": "#enable"
+		},
+		{
+			"include": "#disable"
 		}
 	],
 	"repository": {
@@ -48,6 +54,22 @@
 				{
 					"name": "constant.numeric.fortigate",
 					"match": "(?<![^\\s:]|set )[0-9a-f:]*/?[0-9a-f:]+([\\.-]\\d+)*\\b(?!-)"
+				}
+			]
+		},
+		"enable": {
+			"patterns": [
+				{
+					"name": "markup.bold.fortigate",
+					"match": " (enable|accept|pass|allow)$"
+				}
+			]
+		},
+		"disable": {
+			"patterns": [
+				{
+					"name": "invalid.illegal.fortigate",
+					"match": " (disable|disabled|deny|block|off)$"
 				}
 			]
 		}
