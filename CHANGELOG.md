@@ -19,3 +19,7 @@
 ## [1.1.0]
 
 - Add enable/disable matching
+
+## [1.1.1]
+
+- Update theme for "enable"

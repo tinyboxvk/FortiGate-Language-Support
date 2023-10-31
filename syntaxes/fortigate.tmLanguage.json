@@ -60,7 +60,7 @@
 		"enable": {
 			"patterns": [
 				{
-					"name": "markup.bold.fortigate",
+					"name": "storage.modifier.fortigate",
 					"match": " (enable|accept|pass|allow)$"
 				}
 			]
