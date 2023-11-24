@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.1.4]
+
+- Optimize performance
+
 ## [1.1.3]
 
 - Optimize performance
