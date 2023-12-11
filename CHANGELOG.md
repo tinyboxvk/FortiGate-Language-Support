@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.1.5]
+
+- Update README
+
 ## [1.1.4]
 
 - Optimize performance
