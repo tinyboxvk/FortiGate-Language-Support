@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.1.7]
+
+- Add up/down matching for interface status
+
 ## [1.1.6]
 
 - Update README
