@@ -61,7 +61,7 @@
 			"patterns": [
 				{
 					"name": "storage.modifier.fortigate",
-					"match": " (?:enable|accept|pass|allow)$"
+					"match": " (?:enable|accept|pass|allow|up)$"
 				}
 			]
 		},
@@ -69,7 +69,7 @@
 			"patterns": [
 				{
 					"name": "invalid.illegal.fortigate",
-					"match": " (?:disable|disabled|deny|block|off)$"
+					"match": " (?:disable|disabled|deny|block|off|down)$"
 				}
 			]
 		}
