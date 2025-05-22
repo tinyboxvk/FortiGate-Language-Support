@@ -2,7 +2,7 @@
   "name": "fortigate-language-support",
   "displayName": "FortiGate Language Support",
   "description": "Syntax highlighting for FortiGate configuration",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "publisher": "tinyboxvk",
   "license": "MIT",
   "homepage": "https://github.com/tinyboxvk/FortiGate-Language-Support",
