@@ -1,4 +1,7 @@
 # Change Log
+## [1.1.8]
+
+- Add append matching address groups
 
 ## [1.1.7]
 
